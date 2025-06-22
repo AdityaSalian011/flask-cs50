@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<!-- <form action="/greet", method="get"> -->
+<form action="/greet", method="post">
+    <input type="text" name="name" autocomplete="off" placeholder="Name" id="">
+    <button type="submit">greet</button>
+</form>
+{% endblock %}
